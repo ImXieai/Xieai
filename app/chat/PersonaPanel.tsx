@@ -93,14 +93,14 @@ const PersonaPanel = (_props: PersonaPanelProps) => {
             </TextField.Slot>
             <TextField.Input
               className="flex-1"
-              placeholder="Search Persona Template"
+              placeholder="搜索相关角色设定"
               onChange={({ target }) => {
                 setSearchText(target.value)
               }}
             />
           </TextField.Root>
           <Button size="3" radius="large" variant="surface" onClick={onOpenPersonaModal}>
-            Create
+            创建角色
           </Button>
         </Flex>
       </Container>
