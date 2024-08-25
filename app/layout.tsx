@@ -7,10 +7,10 @@ import '@/styles/theme-config.css'
 
 export const metadata = {
   title: {
-    default: 'ChatGPT Lite',
+    default: '屑のAI',
     template: `%s - ChatGPT Lite`
   },
-  description: 'AI assistant powered by ChatGPT',
+  description: 您的屑AI助手',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
