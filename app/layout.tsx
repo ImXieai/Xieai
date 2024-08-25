@@ -10,7 +10,7 @@ export const metadata = {
     default: '屑のAI',
     template: `%s - ChatGPT Lite`
   },
-  description: 您的屑AI助手',
+  description: '您的屑AI助手',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
