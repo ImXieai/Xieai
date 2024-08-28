@@ -7,7 +7,7 @@ import '@/styles/theme-config.css'
 
 export const metadata = {
   title: {
-    default: '屑ai助手 ',
+    default: 'XIEAI / 新的AI开启方式 ',
     template: `%s - ChatGPT Lite`
   },
   description: '您的屑AI助手',
