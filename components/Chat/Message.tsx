@@ -1,13 +1,13 @@
 'use client'
 
-import { useCallback, useState } from 'react'
-import { Avatar, Flex, IconButton, Tooltip } from '@radix-ui/themes'
-import { FaRegCopy } from 'react-icons/fa'
-import { HiUser } from 'react-icons/hi'
-import { FaRegFaceLaughWink } from 'react-icons/fa6'
-import { Markdown } from '@/components'
-import { useCopyToClipboard } from '@/hooks/useCopyToClipboard'
-import { ChatMessage } from './interface'
+import { useCallback, useState } from 'react';
+import { Markdown } from '@/components';
+import { useCopyToClipboard } from '@/hooks/useCopyToClipboard';
+import { Avatar, Flex, IconButton, Tooltip } from '@radix-ui/themes';
+import { FaRegCopy, FaRegFaceLaughWink } from 'react-icons/fa6'; // fa6 优先于 fa
+import { FaRegCopy } from 'react-icons/fa';
+import { HiUser } from 'react-icons/hi';
+import { ChatMessage } from './interface';
 
 export interface MessageProps {
   message: ChatMessage
