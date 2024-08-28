@@ -32,7 +32,7 @@ export const ChatSideBar = () => {
           className="bg-token-surface-primary active:scale-95 cursor-pointer"
         >
           <FiPlus className="size-4" />
-          <Text>New Chat</Text>
+          <Text>新的聊天</Text>
         </Box>
         <ScrollArea className="flex-1" type="auto" scrollbars="vertical">
           <Flex direction="column" gap="3">
@@ -73,8 +73,8 @@ export const ChatSideBar = () => {
           onClick={() => onOpenPersonaPanel?.('chat')}
           className="bg-token-surface-primary active:scale-95 cursor-pointer"
         >
-          <RiRobot2Line className="size-4" />
-          <Text>Persona Store</Text>
+          <FaRegFaceLaughWink className="size-4" />
+          <Text>角色商店</Text>
         </Box>
       </Flex>
     </Flex>
