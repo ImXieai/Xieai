@@ -7,7 +7,7 @@ import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { BiMessageDetail } from 'react-icons/bi'
 import { FiPlus } from 'react-icons/fi'
 import { FaStore } from 'react-icons/fa';
-import { FaRegFaceLaughWink } from 'react-icons/ra'
+import { FaRegFaceLaughWink } from 'react-icons/fa6'
 import ChatContext from './chatContext'
 
 import './index.scss'
