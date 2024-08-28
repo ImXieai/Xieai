@@ -5,7 +5,7 @@ import { Box, Flex, IconButton, ScrollArea, Text } from '@radix-ui/themes'
 import cs from 'classnames'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { BiMessageDetail } from 'react-icons/bi'
-import { FaRegFaceLaughWink } from 'react-icons/fa6'
+import { FaStore } from 'react-icons/fa'
 import { FiPlus } from 'react-icons/fi'
 import ChatContext from './chatContext'
 
@@ -73,7 +73,7 @@ export const ChatSideBar = () => {
           onClick={() => onOpenPersonaPanel?.('chat')}
           className="bg-token-surface-primary active:scale-95 cursor-pointer"
         >
-          <FaRegFaceLaughWink className="size-4" />
+          <FaStore className="size-4" />
           <Text>角色商店</Text>
         </Box>
       </Flex>
