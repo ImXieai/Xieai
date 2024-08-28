@@ -6,6 +6,7 @@ import cs from 'classnames'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 import { BiMessageDetail } from 'react-icons/bi'
 import { FiPlus } from 'react-icons/fi'
+import { FaStore } from 'react-icons/fa';
 import { FaRegFaceLaughWink } from 'react-icons/ri'
 import ChatContext from './chatContext'
 
