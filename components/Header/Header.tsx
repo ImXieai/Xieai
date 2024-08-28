@@ -3,7 +3,6 @@
 import { useCallback, useState } from 'react'
 import { HamburgerMenuIcon } from '@radix-ui/react-icons'
 import { Avatar, Flex, Heading, IconButton, Select, Tooltip } from '@radix-ui/themes'
-import Image from 'next/image'
 import cs from 'classnames'
 import NextLink from 'next/link'
 import { FaAdjust, FaGithub, FaMoon, FaRegSun } from 'react-icons/fa'
@@ -25,18 +24,9 @@ export const Header = () => {
     >
       <Flex align="center" gap="3">
         <NextLink href="/">
-          <Flex align="center" gap="2">
-            <Image
-              src="/logo.png"
-              alt="Logo"
-              width={30} // 根据需要调整宽度
-              height={30} // 根据需要调整高度
-              style={{ objectFit: 'contain' }}
-            />
-            <Heading as="h2" size="4" style={{ maxWidth: 200 }}>
-              屑のAI
-            </Heading>
-          </Flex>
+          <Heading as="h2" size="4" style={{ maxWidth: 200 }}>
+            屑のAI
+          </Heading>
         </NextLink>
         <Flex align="center" gap="3" className="ml-auto">
           <Avatar
