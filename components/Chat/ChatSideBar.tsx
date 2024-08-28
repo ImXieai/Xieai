@@ -1,13 +1,13 @@
 'use client'
 
-import React, { useContext } from 'react';
-import { Box, Flex, IconButton, ScrollArea, Text } from '@radix-ui/themes';
-import { FaRegFaceLaughWink, FaStore } from 'react-icons/fa6'; // fa6 优先于其他 react-icons
-import { AiOutlineCloseCircle } from 'react-icons/ai';
-import { BiMessageDetail } from 'react-icons/bi';
-import { FiPlus } from 'react-icons/fi';
-import cs from 'classnames';
-import ChatContext from './chatContext';
+import React, { useContext } from 'react'
+import { Box, Flex, IconButton, ScrollArea, Text } from '@radix-ui/themes'
+import cs from 'classnames'
+import { AiOutlineCloseCircle } from 'react-icons/ai'
+import { BiMessageDetail } from 'react-icons/bi'
+import { FiPlus } from 'react-icons/fi'
+import { RiRobot2Line } from 'react-icons/ri'
+import ChatContext from './chatContext'
 
 import './index.scss'
 
@@ -32,7 +32,7 @@ export const ChatSideBar = () => {
           className="bg-token-surface-primary active:scale-95 cursor-pointer"
         >
           <FiPlus className="size-4" />
-          <Text>新的聊天</Text>
+          <Text>New Chat</Text>
         </Box>
         <ScrollArea className="flex-1" type="auto" scrollbars="vertical">
           <Flex direction="column" gap="3">
@@ -73,8 +73,8 @@ export const ChatSideBar = () => {
           onClick={() => onOpenPersonaPanel?.('chat')}
           className="bg-token-surface-primary active:scale-95 cursor-pointer"
         >
-          <FaStore className="size-4" />
-          <Text>角色商店</Text>
+          <RiRobot2Line className="size-4" />
+          <Text>Persona Store</Text>
         </Box>
       </Flex>
     </Flex>
