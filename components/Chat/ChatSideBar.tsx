@@ -1,14 +1,13 @@
 'use client'
 
-import React, { useContext } from 'react'
-import { Box, Flex, IconButton, ScrollArea, Text } from '@radix-ui/themes'
-import cs from 'classnames'
-import { AiOutlineCloseCircle } from 'react-icons/ai'
-import { BiMessageDetail } from 'react-icons/bi'
-import { FiPlus } from 'react-icons/fi'
-import { FaStore } from 'react-icons/fa';
-import { FaRegFaceLaughWink } from 'react-icons/fa6'
-import ChatContext from './chatContext'
+import React, { useContext } from 'react';
+import { Box, Flex, IconButton, ScrollArea, Text } from '@radix-ui/themes';
+import { FaRegFaceLaughWink, FaStore } from 'react-icons/fa6'; // fa6 优先于其他 react-icons
+import { AiOutlineCloseCircle } from 'react-icons/ai';
+import { BiMessageDetail } from 'react-icons/bi';
+import { FiPlus } from 'react-icons/fi';
+import cs from 'classnames';
+import ChatContext from './chatContext';
 
 import './index.scss'
 
