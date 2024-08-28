@@ -8,6 +8,7 @@ import NextLink from 'next/link'
 import { FaAdjust, FaGithub, FaMoon, FaRegSun } from 'react-icons/fa'
 import { Link } from '../Link'
 import { useTheme } from '../Themes'
+import Image from 'next/image'
 
 export const Header = () => {
   const { theme, setTheme } = useTheme()
@@ -24,9 +25,12 @@ export const Header = () => {
     >
       <Flex align="center" gap="3">
         <NextLink href="/">
-          <Heading as="h2" size="4" style={{ maxWidth: 200 }}>
-            屑のAI
-          </Heading>
+          <Flex align="center" gap="2" style={{ maxWidth: 200 }}>
+            <Image src="/logo.png" alt="Logo" width={32} height={32} />
+            <Heading as="h2" size="4">
+              屑のAI
+            </Heading>
+          </Flex>
         </NextLink>
         <Flex align="center" gap="3" className="ml-auto">
           <Avatar
