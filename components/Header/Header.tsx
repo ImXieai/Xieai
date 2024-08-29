@@ -5,7 +5,7 @@ import { HamburgerMenuIcon } from '@radix-ui/react-icons'
 import { Avatar, Flex, Heading, IconButton, Select, Tooltip } from '@radix-ui/themes'
 import cs from 'classnames'
 import NextLink from 'next/link'
-import { FaAdjust, FaGithub, FaMoon, FaRegSun } from 'react-icons/fa'
+import { FaAdjust, FaEnvelope, FaMoon, FaRegSun } from 'react-icons/fa'
 import { Link } from '../Link'
 import { useTheme } from '../Themes'
 
@@ -34,8 +34,8 @@ export const Header = () => {
             size="2"
             radius="full"
             fallback={
-              <Link href="https://github.com/blrchen/chatgpt-lite">
-                <FaGithub />
+              <Link href="mailto:connect@xieai.top">
+                <FaEnvelope />
               </Link>
             }
           />
